@@ -1,0 +1,50 @@
+.search-doc input {
+    padding-right: 2.375rem;
+    border-radius: 25px;
+    font-size: 14px;
+    border: 2px solid #0054D1;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding: 5px 14px;
+    outline: none;
+}
+
+.search-doc {
+    text-align: center;
+}
+.sidebarMenu {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+.metismenu li {
+    padding: 5px 0;
+}
+.metismenu li a {
+    display: block;
+    color: #586069;
+    font-size: 15px;
+    padding: 0 20px;
+    font-weight: 500;
+}
+.metismenu li.active a {
+    color: #0054D1;
+}
+.metismenu li ul::before {
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    content: '';
+    position: absolute;
+    border-left: 1px solid #0054D1;
+}
+.metismenu li ul {
+    position: relative;
+    padding-left: 20px;
+    list-style-type: none;
+}

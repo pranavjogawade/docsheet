@@ -1,0 +1,46 @@
+.container-fluid {
+    background-color: #fff;
+    border-bottom: 1px solid #e4e8ec;
+    box-shadow: 0 0.1rem 0.3rem 0 rgba(0,0,0,.1);    
+    height: 100%;
+}
+.navbar-default {
+    z-index: 2;
+}
+.nav.navbar-nav a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 0 !important;
+    margin: 1.5rem 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    background: transparent !important;
+}
+input.form-control {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    outline: none !important;
+}
+
+input.form-control:focus {
+    box-shadow: none;
+    border-color: gray;
+}
+a.navbar-brand h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #253858;
+}
+
+a.navbar-brand span {
+    font-weight: 100;
+}
+.glyphicon.glyphicon-dashboard{
+    font-size: 17px;
+    margin-right: 5px;
+}
